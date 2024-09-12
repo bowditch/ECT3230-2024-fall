@@ -1,6 +1,11 @@
 # ECT3230-2024-fall
 In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 
+2024.09.12 - XR Rig completed
+* XR Rig customized complete
+* Contollers with interactors
+* Added door assets
+
 2024.09.10 - The Cabin and custom XR Rig
 ---
 * Started _The Cabin_ project
