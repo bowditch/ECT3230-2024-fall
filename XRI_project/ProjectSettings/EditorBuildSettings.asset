@@ -15,5 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TheCabin.unity
     guid: a244d551d0579d14fa6987431d57850e
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 07802f49dcc169941874041a235c9a5c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0ff18e80c36df194a969370fb3644b74, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 383a2f0cfa6b3004f8e98fb42849d632, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 3b3f981438aadf447b6efbf8b80d296a, type: 2}
