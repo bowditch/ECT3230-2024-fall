@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &261377455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1838814048331682, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+  m_PrefabInstance: {fileID: 1608468754}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &336996550
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532188434}
   - component: {fileID: 532188433}
+  - component: {fileID: 532188435}
   m_Layer: 0
   m_Name: XR Interaction Manager
   m_TagString: Untagged
@@ -199,6 +205,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532188435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532188432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7487488290f8341b4a0e5656511ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &702618386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2321138822711354309, guid: 786f4df3551d4a4488e8f3babacbd576, type: 3}
@@ -1075,6 +1093,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1561886347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4290045977357102, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+  m_PrefabInstance: {fileID: 1608468754}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1608468754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1197,6 +1220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114097202976587684, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+    - {fileID: 111956634575385480, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4944102135447920, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
@@ -1205,13 +1229,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4944102135447920, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
       insertIndex: -1
       addedObject: {fileID: 940056661}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1838814048331682, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1608468757}
   m_SourcePrefab: {fileID: 100100000, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
 --- !u!4 &1608468755 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4944102135447920, guid: ea0b3a53d51d3f94a9b82aff7983c608, type: 3}
   m_PrefabInstance: {fileID: 1608468754}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608468757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261377455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f51a7c56e3047542a6d95d32f4bb7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AudioClipOnStart>k__BackingField: {fileID: 0}
+  <AudioClipOnEnd>k__BackingField: {fileID: 0}
+  featureUsage: 0
+  doorPivot: {fileID: 1561886347}
+  maxAngle: 90
+  reverseAngleDirection: 0
+  doorSpeed: 1
+  open: 0
+  MakeKinematicOnOpen: 0
+  socketInteractor: {fileID: 0}
+  simpleInteractable: {fileID: 0}
 --- !u!1 &1987465531
 GameObject:
   m_ObjectHideFlags: 0
