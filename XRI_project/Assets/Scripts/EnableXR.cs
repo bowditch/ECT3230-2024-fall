@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.XR.Management;
 
 //Change the namespace to the "Company Name" as presented in Project Settings/Player -> Top of screen. Make sure to keep .XR
-namespace BowditchStudios.XR
+namespace BowditchStudio.XR
 {
     /// <summary>
     /// This fixes issues with XR tools (Steam VR, Oculus Meta XR Simulator, ect.) not launching when in play mode. Attach to a game object in a scene using XR.
