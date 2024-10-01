@@ -1,6 +1,22 @@
 # ECT3230-2024-fall
 In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 
+2024.09.26 - DoorFeatures continued and EnableXR.cs
+---
+* Added EnableXR to auto-load XR Tools
+* Continued adding to DoorFeatures.cs
+
+2024.09.24 - CoreFeatures and DoorFeatures
+---
+* Created CoreFeatures.cs
+* Started DoorFeatures.cs
+* Added KeySocket
+
+2024.09.19 - Manifest updates
+---
+* Class presentation day
+* Spent a little time on Android Manifests
+
 2024.09.17 - Teleportation and Key Sockets
 ---
 * Added Teleportation functionality
@@ -10,7 +26,7 @@ In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 2024.09.12 - XR Rig completed
 ---
 * XR Rig customized complete
-* Contollers with interactors
+* Controllers with interactors
 * Added door assets
 
 2024.09.10 - The Cabin and custom XR Rig
