@@ -1,6 +1,11 @@
 # ECT3230-2024-fall
 In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 
+2024.10.01 - DoorFeatures.cs
+---
+* Completed DoorFeatures
+* Troubleshoot/update teleportation line renderer orientation problems.
+  
 2024.09.26 - DoorFeatures continued and EnableXR.cs
 ---
 * Added EnableXR to auto-load XR Tools
