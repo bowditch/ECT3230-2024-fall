@@ -1,7 +1,14 @@
 # ECT3230-2024-fall
 In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 
-2024.10.01 - DoorFeatures.cs
+2024.10.03 - Sockets
+---
+* Added Key
+* Configured settings for door, key, and keysocket
+* Reverted OpenXR Package back to 1.10.0 to avoid issues with Play mode
+* Imported sound effects for doors
+
+2024.10.01 - DoorFeatures
 ---
 * Completed DoorFeatures
 * Troubleshoot/update teleportation line renderer orientation problems.
