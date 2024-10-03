@@ -8,7 +8,7 @@ public class DoorFeatures : CoreFeatures //inheritence
     [Header("Door Configuration")]
 
     [SerializeField]
-    private Transform doorPivot; //Controls pivot
+    private Transform doorPivot; //Controls pivot - Encapsulated
 
     [SerializeField]
     private float maxAngle = 90.0f;
@@ -35,7 +35,7 @@ public class DoorFeatures : CoreFeatures //inheritence
 
     private void Start()
     {
-        socketInteractor?.selectEntered.AddListener((s) =>
+        socketInteractor?.selectEntered.AddListener((s) => //polymorphic
         {
             OpenDoor();
             PlayOnStart();
@@ -45,9 +45,12 @@ public class DoorFeatures : CoreFeatures //inheritence
         {
             OpenDoor();
         });
+
+        //For dev testing only - Delete me
+        //OpenDoor();
     }
 
-    public void OpenDoor()
+    public void OpenDoor() //abstraction
     {
         if (!open)
         {
