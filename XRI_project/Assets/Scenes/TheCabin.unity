@@ -1556,12 +1556,12 @@ MonoBehaviour:
   <AudioClipOnStart>k__BackingField: {fileID: 0}
   <AudioClipOnEnd>k__BackingField: {fileID: 0}
   featureUsage: 0
-  drawerSlide: {fileID: 0}
+  drawerSlide: {fileID: 1059388211}
   maxDistance: 1
   featureDirection: 0
   open: 0
   speed: 1
-  simpleInteractable: {fileID: 0}
+  simpleInteractable: {fileID: 1059388212}
 --- !u!1 &1211394889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,15 +2092,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016702739638595299, guid: 786f4df3551d4a4488e8f3babacbd576, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.263
       objectReference: {fileID: 0}
     - target: {fileID: 7016702739638595299, guid: 786f4df3551d4a4488e8f3babacbd576, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 7016702739638595299, guid: 786f4df3551d4a4488e8f3babacbd576, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.125
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 7016702739638595299, guid: 786f4df3551d4a4488e8f3babacbd576, type: 3}
       propertyPath: m_LocalRotation.w
