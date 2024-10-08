@@ -1,10 +1,15 @@
 # ECT3230-2024-fall
 In-class work files for ECT 3230 and ECT 5230 - Fall 2024
 
+2024.10.08 - Simple Interactables
+---
+* enum classes
+* Basic drawer functionality. Going to fine-tune script on Thursday
+  
 2024.10.03 - Sockets
 ---
 * Added Key
-* Configured settings for door, key, and keysocket
+* Configured settings for door, key, and key socket
 * Reverted OpenXR Package back to 1.10.0 to avoid issues with Play mode
 * Imported sound effects for doors
 
